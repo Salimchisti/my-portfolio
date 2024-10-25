@@ -53,7 +53,7 @@ const HomePage = () => {
           <motion.p className="text-4xl font-bold text-gray-800 md:text-6xl mt-2" variants={itemVariants}>I am Muhammed</motion.p>
           <motion.p className="text-4xl font-bold text-gray-800 md:text-6xl mt-2" variants={itemVariants}>Salim.</motion.p>
           <motion.p className="mt-4 text-lg text-gray-600 md:text-xl" variants={itemVariants}>
-            Frontend Developer | React Enthusiast | Lifelong Learner
+            Software Developer | React Enthusiast | Lifelong Learner
           </motion.p>
           <motion.p className="mt-2 text-lg text-gray-600 md:text-xl" variants={itemVariants}>
             Former BPO Specialist with 3 Years of Experience
