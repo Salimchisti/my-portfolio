@@ -45,7 +45,7 @@ function About() {
       <h2 className="text-4xl text-center font-bold text-gray-800 mb-10 mt-10">About Me</h2>
 
       {/* Who I Am Section */}
-      <div className="max-w-3xl mx-auto p-5 text-center">
+      <div className="max-w-5xl mx-auto p-5 text-center">
         <h3 className="text-3xl font-semibold">Who I Am</h3>
         <p className="text-gray-700 leading-relaxed text-lg">
           I am Muhammed Salim, a dedicated web developer transitioning from a background in the BPO industry into software development. I am passionate about building efficient, scalable web applications using modern technologies.
@@ -53,7 +53,7 @@ function About() {
       </div>
 
       {/* Education Section */}
-      <div className="max-w-3xl mx-auto mb-8 p-5">
+      <div className="max-w-5xl mx-auto mb-8 p-5">
         <h3 className="text-3xl font-semibold text-center">Education</h3>
         <ul className="list-disc list-outside pl-5 text-gray-700 text-lg mt-2 text-left">
           <li>B.Tech (Computer Science Engineering) (2019) - Aravali Institute Of Technical Studies (AITS), Udaipur, Rajasthan</li>
@@ -61,6 +61,7 @@ function About() {
           <li>Higher Secondary Examination (2012) - Class X (Central Board of Secondary Education)</li>
         </ul>
       </div>
+
 
       {/* Skills Section */}
       <motion.div

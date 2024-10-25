@@ -1,12 +1,7 @@
-import { useNavigate } from 'react-router-dom';
+
 import { motion } from 'framer-motion';
 
 const HomePage = () => {
-  const navigate = useNavigate();
-
-  const handle = () => {
-    navigate("/projects"); // Correct route for the projects page
-  };
 
   // Animation variants
   const containerVariants = {
@@ -66,10 +61,10 @@ const HomePage = () => {
           <motion.div className="mt-8" variants={itemVariants}>
             <div className="flex justify-center mt-8">
               <a
-                href="/path/to/your/cv.pdf" // Replace with the actual path to your CV
+                href="/icon-js/Resume.pdf" // Replace with the actual path to your CV
                 download
               >
-                <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">
+                <button  className="bg-gray-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">
                   Download CV
                 </button>
               </a>
