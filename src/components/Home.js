@@ -35,15 +35,15 @@ const HomePage = () => {
       >
         {/* Left Section: Image */}
         <motion.div
-  className="flex-shrink-0 w-full md:w-1/3 mb-8 md:mb-0 md:mr-8 -ml-4" // Added negative left margin (-ml-4) and margin-right (md:mr-8)
-  variants={itemVariants}
->
-  <img
-    src="/icon-js/IMG_3222.jpg" // Replace with your image path
-    alt="Muhammed Salim"
-    className="rounded-lg shadow-lg object-cover w-full h-auto max-w-sm" // Added max-width and auto height
-  />
-</motion.div>
+          className="flex-shrink-0 w-full md:w-1/3 mb-8 md:mb-0 md:mr-8 -ml-4" // Added negative left margin (-ml-4) and margin-right (md:mr-8)
+          variants={itemVariants}
+        >
+          <img
+            src="/icon-js/IMG_3222.jpg" // Replace with your image path
+            alt="Muhammed Salim"
+            className="rounded-lg shadow-lg object-cover w-full h-auto max-w-sm" // Added max-width and auto height
+          />
+        </motion.div>
 
 
 
@@ -64,11 +64,17 @@ const HomePage = () => {
             Former BPO Specialist with 3 Years of Experience
           </motion.p>
           <motion.div className="mt-8" variants={itemVariants}>
-            <button
-              onClick={handle}
-              className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">
-              View My Projects
-            </button>
+            <div className="flex justify-center mt-8">
+              <a
+                href="/path/to/your/cv.pdf" // Replace with the actual path to your CV
+                download
+              >
+                <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">
+                  Download CV
+                </button>
+              </a>
+            </div>
+
           </motion.div>
         </motion.div>
       </motion.section>
