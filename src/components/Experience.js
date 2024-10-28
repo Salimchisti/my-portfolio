@@ -2,14 +2,12 @@ import { motion } from 'framer-motion';
 
 function Experience() {
     const experiences = [
-
         {
-            company: "Regal Outsource (India) Private Limite",
+            company: "Regal Outsource (India) Private Limited",
             role: "Software Developer Intern",
             period: "September 2024 - Present",
             description: "HTML · CSS · JavaScript · React · Tailwind CSS · "
         },
-
         {
             company: "Saevah LLC",
             role: "Operations Associate",
@@ -39,14 +37,16 @@ function Experience() {
                         key={index}
                         className="flex mb-10"
                         initial={{ opacity: 0, x: -100 }} // Start from left
-                        animate={{ opacity: 1, x: 0 }} // Move to center
+                        whileInView={{ opacity: 1, x: 0 }} // Animate to center when in view
                         transition={{ duration: 0.5, delay: index * 0.2 }} // Delay for staggered effect
+                        viewport={{ once: true, amount: 0.5 }} // Animate only once when 50% in view
                     >
                         <motion.div
                             className="w-1/4 text-right pr-8"
                             initial={{ opacity: 0, x: 100 }} // Start from right
-                            animate={{ opacity: 1, x: 0 }} // Move to center
-                            transition={{ duration: 0.5, delay: index * 0.2 }} // Delay for staggered effect
+                            whileInView={{ opacity: 1, x: 0 }} // Move to center when in view
+                            transition={{ duration: 0.5, delay: index * 0.5 }} // Delay for staggered effect
+                            viewport={{ once: true, amount: 0.5 }} // Animate only once when 50% in view
                         >
                             <p className="text-lg font-semibold text-gray-700">{exp.period}</p>
                         </motion.div>
@@ -63,4 +63,3 @@ function Experience() {
 }
 
 export default Experience;
-    
