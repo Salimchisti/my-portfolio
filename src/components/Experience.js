@@ -11,7 +11,7 @@ function Experience() {
         {
             company: "Saevah LLC",
             role: "Operations Associate",
-            period: "2023 - 2024 (1 year)",
+            period: "September 2023 - August 2024 (1 year)",
             description: "Outlook · Freshdesk · Zendesk · Microsoft Excel · Microsoft Office · Data Analysis · Data Entry · Data Mining · Data Analytics · Data Collection · Microsoft Word · Google Sheets · Google Slides."
         },
         {

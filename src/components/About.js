@@ -57,7 +57,7 @@ function About() {
         <h3 className="text-3xl font-semibold text-center">Education</h3>
         <ul className="list-disc list-outside pl-5 text-gray-700 text-lg mt-2 text-left">
           <li>B.Tech (Computer Science Engineering) (2019) - Aravali Institute Of Technical Studies (AITS), Udaipur, Rajasthan</li>
-          <li>Senior Secondary Examination (2014) - Class XII - PCM (Bihar State Board Examination Board)</li>
+          <li>Senior Secondary Examination (2014) - Class XII - PCM (Bihar State Examination Board)</li>
           <li>Higher Secondary Examination (2012) - Class X (Central Board of Secondary Education)</li>
         </ul>
       </div>
