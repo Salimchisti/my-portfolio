@@ -3,17 +3,17 @@ function Projects() {
     { 
       title: "To-Do List App", 
       description: "A task management app built with React.", 
-      link: "https://github.com/Salimchisti/todo-list-REACT"
+      link: "https://todo-list-react-murex-three.vercel.app/"
     },
     { 
       title: "Portfolio Website", 
       description: "A personal portfolio to showcase my work.", 
-      link: "https://github.com/Salimchisti/my-portfolio"
+      link: "https://my-portfolio-omega-cyan-41.vercel.app/"
     },
     { 
       title: "Counter App", 
       description: "A simple counter app built using React hooks.", 
-      link: "https://github.com/Salimchisti/counter-app-React"
+      link: "https://counter-app-react-omega.vercel.app/"
     }
   ];
 
