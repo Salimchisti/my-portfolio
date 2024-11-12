@@ -6,7 +6,7 @@ function About() {
   const skills = [
     { name: "HTML", logo: "/icon-js/HTML.png" },
     { name: "CSS", logo: "/icon-js/CSS.png" },
-    { name: "JavaScript", logo: "/icon-js/javaScript.png" },
+    { name: "JavaScript", logo: "/icon-js/JavaScript.png" },
     { name: "React", logo: "/icon-js/React.png" },
     { name: "Tailwind CSS", logo: "/icon-js/Tailwind.png" },
     { name: "Microsoft Excel", logo: "/icon-js/excel.png" },
