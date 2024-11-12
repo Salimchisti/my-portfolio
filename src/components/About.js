@@ -4,11 +4,11 @@ import Experience from './Experience';
 
 function About() {
   const skills = [
-    { name: "HTML", logo: "/icon-js/html.png" },
+    { name: "HTML", logo: "/icon-js/HTML.png" },
     { name: "CSS", logo: "/icon-js/CSS.png" },
     { name: "JavaScript", logo: "/icon-js/javascript.png" },
-    { name: "React", logo: "/icon-js/react.png" },
-    { name: "Tailwind CSS", logo: "/icon-js/tailwind.png" },
+    { name: "React", logo: "/icon-js/React.png" },
+    { name: "Tailwind CSS", logo: "/icon-js/Tailwind.png" },
     { name: "Microsoft Excel", logo: "/icon-js/excel.png" },
     { name: "Microsoft Office", logo: "/icon-js/office.png" },
     { name: "Data Analysis", logo: "/icon-js/data-analysis.png" },
