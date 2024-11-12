@@ -34,7 +34,7 @@ const HomePage = () => {
           variants={itemVariants}
         >
           <img
-            src="/icon-js/HTML.png"
+            src="/icon-js/IMG.jpg"
             alt="Muhammed Salim"
             className="rounded-lg shadow-lg object-cover w-full h-auto max-w-sm" // Added max-width and auto height
           />
