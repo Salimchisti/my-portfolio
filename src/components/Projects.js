@@ -8,7 +8,7 @@ function Projects() {
     { 
       title: "Portfolio Website", 
       description: "A personal portfolio to showcase my work.", 
-      link: "https://my-portfolio-omega-cyan-41.vercel.app/"
+      link: "https://iamsalim.vercel.app//"
     },
     { 
       title: "Counter App", 
