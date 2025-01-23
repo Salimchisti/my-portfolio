@@ -1,8 +1,6 @@
-
 import { motion } from 'framer-motion';
 
 const HomePage = () => {
-
   // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -30,17 +28,15 @@ const HomePage = () => {
       >
         {/* Left Section: Image */}
         <motion.div
-          className="flex-shrink-0 w-full md:w-1/3 mb-8 md:mb-0 md:mr-8 -ml-4" // Added negative left margin (-ml-4) and margin-right (md:mr-8)
+          className="flex-shrink-0 w-full md:w-1/3 mb-8 md:mb-0 md:mr-8 -ml-4"
           variants={itemVariants}
         >
           <img
             src="/icon-js/IMG.jpg"
             alt="Muhammed Salim"
-            className="rounded-lg shadow-lg object-cover w-full h-auto max-w-sm" // Added max-width and auto height
+            className="rounded-lg shadow-lg object-cover w-full h-auto max-w-sm"
           />
         </motion.div>
-
-
 
         {/* Right Section: Text Content */}
         <motion.div
@@ -49,9 +45,21 @@ const HomePage = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.p className="text-4xl font-bold text-gray-800 md:text-6xl" variants={itemVariants}>Hi,</motion.p>
-          <motion.p className="text-4xl font-bold text-gray-800 md:text-6xl mt-2" variants={itemVariants}>I am Muhammed</motion.p>
-          <motion.p className="text-4xl font-bold text-gray-800 md:text-6xl mt-2" variants={itemVariants}>Salim.</motion.p>
+          <motion.p className="text-4xl font-bold text-gray-800 md:text-6xl" variants={itemVariants}>
+            Hi,
+          </motion.p>
+          <motion.p
+            className="text-4xl font-bold text-gray-800 md:text-6xl mt-2"
+            variants={itemVariants}
+          >
+            I am Muhammed
+          </motion.p>
+          <motion.p
+            className="text-4xl font-bold text-gray-800 md:text-6xl mt-2"
+            variants={itemVariants}
+          >
+            Salim.
+          </motion.p>
           <motion.p className="mt-4 text-lg text-gray-600 md:text-xl" variants={itemVariants}>
             Software Developer | React Enthusiast | Lifelong Learner
           </motion.p>
@@ -61,15 +69,14 @@ const HomePage = () => {
           <motion.div className="mt-8" variants={itemVariants}>
             <div className="flex justify-center mt-8">
               <a
-                href="/icon-js/Resume.pdf" // Replace with the actual path to your CV
+                href="/SalimResume.pdf" // Ensure this matches the file name in the public folder
                 download
               >
-                <button  className="bg-gray-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">
+                <button className="bg-gray-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">
                   Download CV
                 </button>
               </a>
             </div>
-
           </motion.div>
         </motion.div>
       </motion.section>
