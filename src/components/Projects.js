@@ -18,7 +18,7 @@ function Projects() {
     { 
       title: "Mahua Medanta Hospital", 
       description: "Fully responsive Hospital Website", 
-      link: "https://mahua-medanta-hospital.vercel.app/"
+      link: "https://medanta-frontend-two.vercel.app/"
     },
   ];
 
